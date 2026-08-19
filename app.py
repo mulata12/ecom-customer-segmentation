@@ -12,6 +12,7 @@ from pathlib import Path
 import joblib
 import pandas as pd
 import streamlit as st
+from customer_segmentation.preprocessing import transform_rfm
 
 # ------------------------------------------------------------------------------
 # Configuration & Paths
