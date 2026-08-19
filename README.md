@@ -59,7 +59,7 @@ The app has three tabs:
 
 ```
 .                   
-├── customer_segmentation/         # Core package
+├── customer_segmentation/src         # Core package
 │   ├── data.py                    # Load raw Excel, clean transactions
 │   ├── rfm.py                     # Build Recency/Frequency/Monetary features
 │   ├── preprocessing.py           # log1p + scaling pipeline
