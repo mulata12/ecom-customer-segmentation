@@ -58,9 +58,7 @@ The app has three tabs:
 ## Project structure
 
 ```
-.
-├── app/
-│   └── app.py                     # Streamlit application
+.                   
 ├── customer_segmentation/         # Core package
 │   ├── data.py                    # Load raw Excel, clean transactions
 │   ├── rfm.py                     # Build Recency/Frequency/Monetary features
@@ -69,7 +67,7 @@ The app has three tabs:
 │   ├── validation.py              # Resampling stability score (Adjusted Rand Index)
 │   ├── profiling.py               # Cluster summaries + business segment labels
 │   └── visualization.py           # PCA projection plot
-├── run.py                         # End-to-end training pipeline (produces all artifacts below)
+├── app.py                         # End-to-end training pipeline (produces all artifacts below)
 ├── notebooks/
 │   └── segmentation_analysis.ipynb  # Full methodology narrative, EDA, plots, reasoning
 ├── data/
