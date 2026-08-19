@@ -1,22 +1,26 @@
 import sys
 from pathlib import Path
 
-# Add project root to sys.path so python can resolve customer_segmentation
+# --------------------------------------------------------------------------
+# Project paths and package import
+# --------------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parent
-if str(ROOT) not in sys.path:
-    sys.path.append(str(ROOT))
+SRC_DIR = ROOT / "src"
 
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
 
 import json
-from pathlib import Path
 import joblib
 import pandas as pd
 import streamlit as st
+
 from customer_segmentation.preprocessing import transform_rfm
 
-# ------------------------------------------------------------------------------
+
+# --------------------------------------------------------------------------
 # Configuration & Paths
-# ------------------------------------------------------------------------------
+# --------------------------------------------------------------------------
 st.set_page_config(
     page_title="E-Commerce Customer Segmentation",
     page_icon="🎯",
@@ -24,7 +28,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-ROOT = Path(__file__).resolve().parent
 MODELS_DIR = ROOT / "models"
 MODEL_PATH = MODELS_DIR / "best_model.joblib"
 PREPROCESSOR_PATH = MODELS_DIR / "rfm_scaler.joblib"
