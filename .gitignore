@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/processed/*
+
+# Models
+#models/*
+
+# Generated reports
+#reports/figures/*
+#reports/tables/*
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+# Temporary files
+*.tmp
+*.log
+
+# Streamlit
+.streamlit/secrets.toml

@@ -1,0 +1,13 @@
+pyproject.toml
+src/customer_segmentation/__init__.py
+src/customer_segmentation/clustering.py
+src/customer_segmentation/data.py
+src/customer_segmentation/preprocessing.py
+src/customer_segmentation/profiling.py
+src/customer_segmentation/rfm.py
+src/customer_segmentation/validation.py
+src/customer_segmentation/visualization.py
+src/customer_segmentation.egg-info/PKG-INFO
+src/customer_segmentation.egg-info/SOURCES.txt
+src/customer_segmentation.egg-info/dependency_links.txt
+src/customer_segmentation.egg-info/top_level.txt

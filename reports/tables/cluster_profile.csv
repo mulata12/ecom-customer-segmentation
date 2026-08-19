@@ -1,0 +1,5 @@
+Cluster,Customers,Avg_Recency,Median_Recency,Avg_Frequency,Median_Frequency,Avg_Monetary,Median_Monetary,Customer_Share
+0,1192,27.463,17.0,19.299,13.0,10755.652,4994.86,0.203
+1,1972,395.889,403.0,1.38,1.0,318.059,273.345,0.335
+2,1249,28.427,24.0,3.034,3.0,848.377,726.54,0.212
+3,1465,228.324,185.0,5.087,5.0,1957.154,1456.66,0.249

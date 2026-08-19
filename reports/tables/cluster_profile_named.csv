@@ -1,0 +1,5 @@
+Cluster,Segment_Name,Customers,Customer_Share,Avg_Recency,Median_Recency,Avg_Frequency,Median_Frequency,Avg_Monetary,Median_Monetary
+0,Champions,1192,0.203,27.463,17.0,19.299,13.0,10755.652,4994.86
+1,Hibernating / Lost,1972,0.335,395.889,403.0,1.38,1.0,318.059,273.345
+2,Loyal Customers,1249,0.212,28.427,24.0,3.034,3.0,848.377,726.54
+3,At Risk (High Value),1465,0.249,228.324,185.0,5.087,5.0,1957.154,1456.66

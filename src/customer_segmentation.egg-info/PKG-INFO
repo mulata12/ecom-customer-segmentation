@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: customer-segmentation
+Version: 0.1.0
+Summary: E-commerce customer segmentation project
+Requires-Python: >=3.12
